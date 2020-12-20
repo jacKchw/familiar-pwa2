@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/familiar-pwa2/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/familiar-pwa2/static/js/main.607a911e.chunk.js",
-    "main.js.map": "/familiar-pwa2/static/js/main.607a911e.chunk.js.map",
-    "runtime-main.js": "/familiar-pwa2/static/js/runtime-main.25ec2b03.js",
-    "runtime-main.js.map": "/familiar-pwa2/static/js/runtime-main.25ec2b03.js.map",
-    "static/js/2.1c190eff.chunk.js": "/familiar-pwa2/static/js/2.1c190eff.chunk.js",
-    "static/js/2.1c190eff.chunk.js.map": "/familiar-pwa2/static/js/2.1c190eff.chunk.js.map",
-    "static/js/3.9445114a.chunk.js": "/familiar-pwa2/static/js/3.9445114a.chunk.js",
-    "static/js/3.9445114a.chunk.js.map": "/familiar-pwa2/static/js/3.9445114a.chunk.js.map",
+    "main.css": "/familiar-pwa2/static/css/main.56d8326c.chunk.css",
+    "main.js": "/familiar-pwa2/static/js/main.ef982a33.chunk.js",
+    "main.js.map": "/familiar-pwa2/static/js/main.ef982a33.chunk.js.map",
+    "runtime-main.js": "/familiar-pwa2/static/js/runtime-main.0a17e8af.js",
+    "runtime-main.js.map": "/familiar-pwa2/static/js/runtime-main.0a17e8af.js.map",
+    "static/js/2.1a4d507b.chunk.js": "/familiar-pwa2/static/js/2.1a4d507b.chunk.js",
+    "static/js/2.1a4d507b.chunk.js.map": "/familiar-pwa2/static/js/2.1a4d507b.chunk.js.map",
+    "static/js/3.a5df6fed.chunk.js": "/familiar-pwa2/static/js/3.a5df6fed.chunk.js",
+    "static/js/3.a5df6fed.chunk.js.map": "/familiar-pwa2/static/js/3.a5df6fed.chunk.js.map",
     "index.html": "/familiar-pwa2/index.html",
     "service-worker.js": "/familiar-pwa2/service-worker.js",
     "service-worker.js.map": "/familiar-pwa2/service-worker.js.map",
-    "static/css/main.ab7136cd.chunk.css.map": "/familiar-pwa2/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.1c190eff.chunk.js.LICENSE.txt": "/familiar-pwa2/static/js/2.1c190eff.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/familiar-pwa2/static/media/logo.103b5fa1.svg"
+    "static/css/main.56d8326c.chunk.css.map": "/familiar-pwa2/static/css/main.56d8326c.chunk.css.map",
+    "static/js/2.1a4d507b.chunk.js.LICENSE.txt": "/familiar-pwa2/static/js/2.1a4d507b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.25ec2b03.js",
-    "static/js/2.1c190eff.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.607a911e.chunk.js"
+    "static/js/runtime-main.0a17e8af.js",
+    "static/js/2.1a4d507b.chunk.js",
+    "static/css/main.56d8326c.chunk.css",
+    "static/js/main.ef982a33.chunk.js"
   ]
 }
