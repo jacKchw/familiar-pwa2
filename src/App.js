@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import {useEffect, useState} from 'react';
+import Canvas from './js/Canvas';
+import Chat from './js/Chat';
+import Hunger from './js/Hunger';
+import A2HS from './js/A2HS';
 
 function App() {
+  const width = 1280;
+  const height = 720;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = 'container'>
+      <div
+      className = 'sub-container'
+      width={width}
+      height={height}>
+        <Canvas w={width} h={height}/>
+        <Hunger/>
+        <Chat/>
+        <A2HS/>
+      </div>
     </div>
   );
 }
