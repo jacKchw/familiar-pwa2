@@ -4,7 +4,10 @@ const Chat = ()=>{
     const chatBottom = useRef(null);
     const [question, setQuestion] = useState('');
     const [option, setOption] = useState('');
-    const [chat, setChat] = useState([]);
+    const [chat, setChat] = useState(()=>{
+      let prev = localStorage.getItem("chat");
+      return JSON.parse(prev);
+    });
 
     const changeQuestion = event => {
       setQuestion(event.target.value);
@@ -33,15 +36,23 @@ const Chat = ()=>{
             send();
         }
     }
-
+    const reset = ()=>{
+      setChat([]);
+    }
     useEffect(()=>{
         chatBottom.current.scrollIntoView({block: "end"});
+        localStorage.setItem('chat',JSON.stringify(chat));
     },[chat])
 
     return (
       <div 
       className='chatBox text'>
         <strong>ペットに聞く:</strong>
+        <button
+          className = 'chatBtn'
+          onClick = {reset}
+          >リセット</button>
+        
         <div className='chats'>
           {chat.map(item => <div className='chat' key={item.key}><strong>あなた: </strong>{item.mesage}<br/>{item.option[item.response]}</div>)}
         <div ref={chatBottom}></div>

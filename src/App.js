@@ -17,7 +17,7 @@ function App() {
         <Canvas w={width} h={height}/>
         <Hunger/>
         <Chat/>
-        <A2HS/>
+        {/* <A2HS/> */}
       </div>
     </div>
   );

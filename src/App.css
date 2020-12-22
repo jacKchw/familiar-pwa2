@@ -16,12 +16,12 @@ body{
 
 .feed{
   top: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .chatBox{
   top: 200px;
-  margin-left: 100px;
+  margin-left: 50px;
   width: 300px;
   height: 300px;
   padding: 10px;

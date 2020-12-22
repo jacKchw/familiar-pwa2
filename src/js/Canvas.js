@@ -2,8 +2,9 @@ import useImage from 'use-image';
 import { Stage, Layer, Image } from 'react-konva';
 
 const ImageBG = (props) => {
-    const [image] = useImage('./img/bg.jpg');
-    return <Image 
+  const [image] = useImage('/img/bg.jpg');
+  // const [image] = useImage('familiar-pwa2/img/bg.jpg');
+  return <Image 
     width={props.w}
     height={props.h}
     image={image} />;
@@ -11,6 +12,7 @@ const ImageBG = (props) => {
   
   const Character = () => {
     const [image] = useImage('./img/walking_01.png');
+    // const [image] = useImage('familiar-pwa2/img/walking_01.png');
     return <Image 
     width={500}
     height={500}
