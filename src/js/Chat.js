@@ -6,7 +6,7 @@ const Chat = ()=>{
     const [option, setOption] = useState('');
     const [chat, setChat] = useState(()=>{
       let prev = localStorage.getItem("chat");
-      return JSON.parse(prev);
+      return prev===null?[]:JSON.parse(prev);
     });
 
     const changeQuestion = event => {
