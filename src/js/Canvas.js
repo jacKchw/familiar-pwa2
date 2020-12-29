@@ -2,7 +2,7 @@ import useImage from 'use-image';
 import { Stage, Layer, Image } from 'react-konva';
 
 const ImageBG = (props) => {
-  const [image] = useImage('/img/bg.jpg');
+  const [image] = useImage('./img/bg.jpg');
   // const [image] = useImage('familiar-pwa2/img/bg.jpg');
   return <Image 
     width={props.w}
