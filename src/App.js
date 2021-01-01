@@ -4,6 +4,8 @@ import Canvas from './js/Canvas';
 import Chat from './js/Chat';
 import Hunger from './js/Hunger';
 import A2HS from './js/A2HS';
+import {FilesystemBtn} from './js/FileSystem';
+
 
 function App() {
   const width = 1280;
@@ -17,6 +19,7 @@ function App() {
         <Canvas w={width} h={height}/>
         <Hunger/>
         <Chat/>
+        <FilesystemBtn/>
         {/* <A2HS/> */}
       </div>
     </div>
